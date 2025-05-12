@@ -2,15 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <title>Hot Beans Web</title>
 </head>
 <body>
-    
+
+    <!-- Company Profile -->
+    <h1>What is Hot Beans Web?</h1>
     <p>
-        What IS Hot Beans Web?
         Hot Beans Web is a company seeking young and aspiring new web developers to join our company and to grow and learn with us.
         We are a motivated and inspired company looking to help potential new employees find their footing in the world and making
         the daunting task of finding a job as a web developer a little bit easier.
     </p>
+
+    <!-- Developer Profiles -->
+    <h2>Meet Our Developers</h2>
+
+    <h3>Emily Carter</h3>
+    <p><strong>Education:</strong> BSc (Hons) Web Development – University of Salford</p>
+    <p><strong>Skills:</strong> HTML5, CSS3, JavaScript, Bootstrap, React, Figma</p>
+    <p><strong>About:</strong> Emily is a motivated and curious junior web developer passionate about building clean, user-friendly websites. She's eager to contribute to real-world projects and grow within the company.</p>
+
+    <h3>James Patel</h3>
+    <p><strong>Education:</strong> HND in Computing – Birmingham Metropolitan College</p>
+    <p><strong>Skills:</strong> HTML, CSS, JavaScript, PHP, WordPress, Git, SEO</p>
+    <p><strong>About:</strong> James combines formal study with self-taught skills and is focused on creating practical, functional websites. He thrives in hands-on environments and enjoys problem-solving.</p>
+
+    <h3>Aisha Rahman</h3>
+    <p><strong>Education:</strong> T Level in Digital Production – Leeds City College</p>
+    <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Figma, Accessibility-first design</p>
+    <p><strong>About:</strong> Aisha brings creativity and accessibility to every project. Her interest in UX design makes her a valuable team member when it comes to user-focused web solutions.</p>
+
+    <!-- Job Specifications -->
+    <h2>Junior Web Developer – Job Specifications & Qualifications</h2>
+
+    <h3>Responsibilities:</h3>
+    <ul>
+        <li>Build and maintain websites using HTML, CSS, and JavaScript</li>
+        <li>Collaborate with designers and senior developers</li>
+        <li>Test and debug across different browsers and devices</li>
+        <li>Participate in code reviews and development meetings</li>
+        <li>Learn new tools and frameworks on the job</li>
+    </ul>
+
+    <h3>Required Qualifications:</h3>
+    <ul>
+        <li>Basic understanding of HTML5, CSS3, and JavaScript</li>
+        <li>Portfolio of work (can be coursework or personal projects)</li>
+        <li>Good communication and problem-solving skills</li>
+    </ul>
+
+    <h3>Desirable Skills:</h3>
+    <ul>
+        <li>Familiarity with Git/GitHub</li>
+        <li>Experience with frameworks like React or Bootstrap</li>
+        <li>UI/UX knowledge or experience with tools like Figma</li>
+        <li>Understanding of accessibility and SEO</li>
+    </ul>
+
+    <!-- Application Form -->
+    <h2>Application Form</h2>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+
+        <label for="resume">Upload Resume (Word format only):</label><br>
+        <input type="file" id="resume" name="resume" accept=".doc,.docx" required><br><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+
 </body>
 </html>
+
+
